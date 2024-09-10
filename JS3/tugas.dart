@@ -1,5 +1,6 @@
 void main() {
   String NIM = "2241760028";
+  String nama = "Yolanda Ekaputri Setyawan";
 
   print("Bilangan prima dari 0 sampai 201:");
 
@@ -16,7 +17,7 @@ void main() {
 
     if (isPrime) {
       print("$i");
-      print("Ditemukan oleh: $NIM");
+      print("Ditemukan oleh: $nama $NIM");
     }
   }
 }
